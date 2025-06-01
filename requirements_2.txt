@@ -1,0 +1,10 @@
+torch>=1.13
+tokenizers==0.13.3
+transformers==4.27.2
+gradio
+regex
+huggingface-hub
+tensorboard
+nltk
+seaborn
+setuptools==58.0.4
