@@ -18,6 +18,9 @@ from transformers import *
 from dataset import chatgpt_load_datasets
 from utils import summary, distributed
 from pu_loss_mod import pu_loss_auto as pu_loss
+from transformers import tokenization_utils
+from transformers import RobertaTokenizer
+from transformers import RobertaForSequenceClassification
 
 torch.backends.cudnn.benchmark = False
 torch.backends.cudnn.deterministic = True
